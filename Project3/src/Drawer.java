@@ -1,6 +1,6 @@
 package build;
 
-// HELPER CLASS THAT WAS TAKEN FROM THE INTERNET AND SLIGHTLY MODIFIED
+// HELPER CLASS THAT WAS MADE BY ORACLE AND SLIGHTLY MODIFIED BY ME
 
 /*
  * Copyright (c) 2013, 2014 Oracle and/or its affiliates.
@@ -63,7 +63,7 @@ import javax.swing.SwingUtilities;
  *
  * @author cmcastil
  */
-public class MoleculeSampleApp {
+public class Drawer {
 
     final Group root = new Group();
     final Xform axisGroup = new Xform();
@@ -279,7 +279,7 @@ public class MoleculeSampleApp {
     }
 
     public static void performAnimation(JFrame jPanel) {
-        MoleculeSampleApp obj = new MoleculeSampleApp();
+        Drawer obj = new Drawer();
         obj.initAndShowGUI(jPanel);
     }
 
